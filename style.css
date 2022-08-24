@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.nav-list{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 1.5rem;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.178);
+    width: 100%;
+ 
+}
+
+.nav-list a{
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    padding-left: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.Principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10rem;
+    margin-top: 8.2rem;
+}
+
+.Principal h1{
+    font-size: 6.2rem;
+}
+
+.Principal span{
+    font-size: 1.4rem;
+    padding-top: 3.0rem
+}
+
+.Principal button{
+    margin-top: 1.0rem;
+    width: 14rem;
+    padding: 1rem;
+    background-color:#cc284d;
+    border: none;
+    border-radius: 1rem;
+}
+
+.Principal button a{
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+   color: #cc284d;
+   padding: 1.5rem;
+}
+
+
+.Projetos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    justify-content: center;
+
+}
+
+
+.Projetos p{
+    color: #cc284d;
+    font-size: 1.4rem;
+   
+}
+
+.Projetos img{
+width: 45rem;
+padding: 2rem;
+}
+
+.Projetos h1{
+    margin-top: 0;
+}
+
+ .Projetos div{
+    text-align: center;
+    align-items: center;
+}
+
+.Tecnologias img{
+    width: 5rem;
+    border-radius: 50%;
+    padding: 0.3rem;
+    background-color: rgba(255, 255, 255, 0.479);
+}
+
+.Tecnologias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+
+}
+
+.Tecnologias div{
+    margin-left: 1.5rem;
+}
+
+.titulo-tec{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    font-size: 2.2rem;   
+}
