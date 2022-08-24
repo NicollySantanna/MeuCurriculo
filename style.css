@@ -7,6 +7,7 @@
 }
 
 body{
+    font-family: 'poppins', sans-serif;
     background-image: url(./img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
     display: flex;
     justify-content: center;
@@ -30,6 +31,11 @@ body{
     color: #fff;
     padding-left: 1.5rem;
     font-size: 1.2rem;
+    transition: all 0.5s;
+}
+
+.nav-list a:hover{
+font-size: 1.4rem;
 }
 
 .Principal{
@@ -57,6 +63,13 @@ body{
     background-color:#cc284d;
     border: none;
     border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin-top: 5rem;
+    transition: all 0.5s;
+}
+
+.Principal button:hover{
+    width:15rem;
 }
 
 .Principal button a{
@@ -82,6 +95,7 @@ body{
     background-color: rgb(255, 255, 255);
     width: 100%;
     justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 
 }
 
@@ -95,6 +109,11 @@ body{
 .Projetos img{
 width: 45rem;
 padding: 2rem;
+transition: all 0.5s;
+}
+
+.Projetos img:hover{
+    width: 50rem;
 }
 
 .Projetos h1{
@@ -104,6 +123,7 @@ padding: 2rem;
  .Projetos div{
     text-align: center;
     align-items: center;
+    
 }
 
 .Tecnologias img{
@@ -111,18 +131,25 @@ padding: 2rem;
     border-radius: 50%;
     padding: 0.3rem;
     background-color: rgba(255, 255, 255, 0.479);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin-top: 5rem;
+    transition: all 0.5s;
+}
+
+.Tecnologias img:hover{
+    width: 7rem;
 }
 
 .Tecnologias{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top: 3rem;
 
 }
 
 .Tecnologias div{
-    margin-left: 1.5rem;
+   margin: 5px;
 }
 
 .titulo-tec{
@@ -130,4 +157,102 @@ padding: 2rem;
     justify-content: center;
     margin-top: 5rem;
     font-size: 2.2rem;   
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.315);
+    width: 50rem;
+    height: auto;
+    padding: 10px 45px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin-top: 15rem;
+    margin-left: 390px;
+}
+
+.formulario h2{
+color: #fff;
+font-size: 2.5rem;
+margin: 2rem;
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formulario label{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.formulario input{
+    padding: 15px;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+.formulario input:focus{
+    border-radius: 15px;
+  
+}
+
+.formulario textarea{
+    padding: 15px;
+    outline: none;
+    border: none;
+    margin-bottom: 30px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+.formulario textarea:focus{
+    border-radius: 15px;
+}
+
+.formulario button{
+    padding: 15px;
+    outline: none;
+    border: none;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+    cursor: pointer;
+    color: #fff;
+    background-color: #cc284e;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    font-weight: bolder;
+}
+
+footer{
+    margin-bottom: 0;
+    margin-top: 200px;
+    height: 60px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.178) ;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+footer img{
+    width: 3rem;
+    padding: 5px;
+}
+
+.criadora{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    background-color: rgba(255, 255, 255, 0.178) ;
 }
