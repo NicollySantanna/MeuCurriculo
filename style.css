@@ -11,7 +11,7 @@ body{
     background-image: url(./img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
     display: flex;
     justify-content: center;
-    color: #fff;
+    color: #eee;
 }
 
 .nav-list{
@@ -28,15 +28,11 @@ body{
 .nav-list a{
     text-decoration: none;
     border: none;
-    color: #fff;
+    color: #eee;
     padding-left: 1.5rem;
     font-size: 1.2rem;
-    transition: all 0.5s;
 }
 
-.nav-list a:hover{
-font-size: 1.4rem;
-}
 
 .Principal{
     display: flex;
@@ -73,7 +69,7 @@ font-size: 1.4rem;
 }
 
 .Principal button a{
-    color: #fff;
+    color: #eee;
     font-size: 1.2rem;
     text-decoration: none;
     font-weight: bolder;
@@ -82,7 +78,7 @@ font-size: 1.4rem;
 .titulo{
     display: flex;
     justify-content: center;
-    background-color: #fff;
+    background-color: #eee;
    color: #cc284d;
    padding: 1.5rem;
 }
@@ -92,7 +88,7 @@ font-size: 1.4rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    background-color: rgb(255, 255, 255);
+    background-color: #eee;
     width: 100%;
     justify-content: center;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
@@ -174,7 +170,7 @@ transition: all 0.5s;
 }
 
 .formulario h2{
-color: #fff;
+color: #eee;
 font-size: 2.5rem;
 margin: 2rem;
 }
@@ -186,7 +182,7 @@ margin: 2rem;
 }
 
 .formulario label{
-    color: #fff;
+    color: #eee;
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
@@ -227,7 +223,7 @@ margin: 2rem;
     font-size: 15px;
     transition: all 0.5s;
     cursor: pointer;
-    color: #fff;
+    color: #eee;
     background-color: #cc284e;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     font-weight: bolder;
