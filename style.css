@@ -22,7 +22,6 @@ body{
     position: fixed;
     background-color: rgba(255, 255, 255, 0.178);
     width: 100%;
- 
 }
 
 .nav-list a{
@@ -86,7 +85,6 @@ body{
 
 .Projetos{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     background-color: #eee;
     width: 100%;
@@ -106,6 +104,7 @@ body{
 width: 40rem;
 padding: 2rem;
 transition: all 0.5s;
+width: 100%;
 }
 
 .Projetos img:hover{
