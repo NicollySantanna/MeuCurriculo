@@ -229,21 +229,28 @@ margin: 2rem;
 }
 
 footer{
-    bottom: 0;
-    margin-top: 200px;
-    height: 60px;
+    margin-bottom: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.178) ;
+    padding: 1rem;
     display: flex;
-    justify-content:center;
-    align-items: center;
+    text-align: center;
+    justify-items: center;
+    align-items:  center;
     
-    
+}
+
+footer a {
+    color: #eceaea;
+    display: inline-block;
+    padding-bottom: .5rem;
 }
 
 footer img{
     width: 3rem;
     padding: 5px;
+    margin: auto;
+
 }
 
 .criadora{
