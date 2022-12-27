@@ -10,90 +10,63 @@
 </head>
 <body>
 <main class="container">
-
     <!-- SESSÃO DE NAVEGAÇÃO  -->
     <nav class="nav-list">
-        <a href="#Principal">Principal</a>
+        <a href="#Principal">Sobre</a>
         <a href="#Projetos">Projetos</a>
         <a href="#enviar">Contato</a>
     </nav>
-
+    
+    <div class="imgcomputador">
+        <img class="computador" src="./img/fundo.png" height="500" alt="Computador flutuante de desenho">
+    </div>
 
     <!-- SESSÃO DE ENTRADA -->
-    <section class="Principal" id="Principal">
-        <h1>Nicolly Sant'Anna</h1>
-        <span>Desenvolvedora Full-Stack</span>
-        <span>Estudante de Análise e desenvolvimento de sistemas <br>
-        atuo desenvolvendo sistemas web como freelancer.
-        </span>
+   <section class="principal">
+    <h3>Portifólio</h3>
+    <h1>Nicolly Sant'Anna</h1>
+    <p>Desenvolvedora Full-Stack Júnior</p>
 
-        <!-- Botão contate-me  -->
-        <button> <a href="#Contate-me">Contate-me</a> </button>
-    </section>
-
-    <div class="titulo">
-        <h1>PROJETOS</h1>
+    <div class="buttons">
+        <div>
+           <a href=""><button class ="btncv">Baixar CV</button></a>
+        </div>
+        <div>
+           <a href=""><button class ="btncontato">Contate-me</button></a>
+        </div>
     </div>
+   </section>
+
+   <!-- SESSÃO SOBRE  -->
+   <section class="sobre">
+            <div class="perfil">
+                <img src="./img/perfil.jfif" alt="Minha foto de perfil" width="200">
+            </div>
+            <div class="text">
+                <h3>Um pouco sobre mim...</h3>
+                <p>Meu nome é Nicolly sou formada em análise e desenvolvimento de sistemas pela Univerdade Unopar.<br>
+                    Estudo desenvolvimento web tem aproximadamente um ano e meio e desde então venho me especializando na área.
+                </p>
+            </div>
+        </section>
+        
     <!-- SESSÃO DE PROJETOS  -->
-    <section class="Projetos" id="Projetos">
-        <div>
-        <img src="./img/cadastro.png" alt="">
-        <p>Formulário para cadastro de clientes.<br>Layout feito apenas com HTML e CSS puro </p>
-    </div>
-
-        <!-- <div>
-        <img src="/img/gerador de senhas.png" alt="">
-        <p>Sistema simples para gerar senhas seguras.<br> Layout feito com HTML e CSS </p>
-    </div> -->
-
-        <!-- <div>
-        <img src="./img/login.png" alt="">
-        <p>Tela de login simples, feito com HTML e CSS</p>
-    </div> -->
-
-        <div>
-        <img src="./img/to do.png" alt="">
-        <p>Lista de afazeres feito com HTML e CSS no Layout.<br> Utilizei o javascript para as funcionalidades</p>
-    </div>
-
-    </section>
-
-    <div class="titulo-tec">
-        <h1>Tecnologias</h1>
-    </div>
+   
 
     <!-- SESSÃO TECNOLOGIAS  -->
-    <section class="Tecnologias">
-    <div class="html">
-        <img src="./img/logo-html-5-256.png" alt="">
-    </div>
-    <div class="css">
-        <img src="./img/logo-css-3-256.png" alt="">
-    </div>
-    <div class="javascript">
-        <img src="./img/logo-javascript-256.png" alt="">
-    </div>
-    <div class="php">
-        <img src="./img/logo-php-256.png" alt="">
-    </div>
-    <div class="git">
-        <img src="./img/git-256.png" alt="">
-    </div>
-    <div class="github">
-        <img src="./img/github-256.png" alt="">
-    </div>
-    </section>
+  
+
 
 <!-- SESSÃO DE FORMULÁRIO PARA CONTATO  -->
 
-    <section class="formulario" id="formulario">
+    <!-- <section class="formulario" id="formulario">
         <h2>CONTATO</h2>
 <form action="" method="post" id="enviar"> 
     <label for="name">Nome</label>
-    <input type="text" name="name" placeholder="Digite o seu nome">
+    <input type="text" id="name" placeholder="Digite o seu nome">
 
-    <label for="name">E-mail</label>
-    <input type="email" name="nemail" placeholder="Digite o seu E-mail">
+    <label for="email">E-mail</label>
+    <input type="email" id="email" placeholder="Digite o seu E-mail">
 
     <label for="mensagem">Mensagem</label>
     <textarea name="mensagem" cols="30" rows="10" placeholder="Deixe uma mensagem!">
@@ -111,7 +84,7 @@
     </footer>
     <div class="criadora">
         Criado por Nicolly Sant'Anna
-    </div>
+    </div> -->
 </main>
 </body>
 </html>

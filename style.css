@@ -6,22 +6,25 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'poppins', sans-serif;
-    background-image: url(./img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
-    display: flex;
-    justify-content: center;
-    color: #eee;
+:root {
+    font-size: 62.5%;
 }
 
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: #042940;
+    color: #eee;
+    font-size: 1.6rem;
+}
+
+/* NAVEGAÇÃO */
 .nav-list{
     display: flex;
-    justify-content:flex-start;
+    justify-content:flex-end;
     align-items: center;
     padding: 1.5rem;
-    position: fixed;
     background-color: rgba(255, 255, 255, 0.178);
-    width: 100%;
+    max-width: 100%;
 }
 
 .nav-list a{
@@ -29,123 +32,108 @@ body{
     border: none;
     color: #eee;
     padding-left: 1.5rem;
-    font-size: 1.2rem;
+    margin-right: 2.5rem;
+    font-size: 1.6rem;
+    transition: all .4s;
 }
 
+.nav-list a:hover{
+color: #904DF8;
+transform: scale(1.1);
+}
+/* FIM DE NAVEGAÇÃO */
 
-.Principal{
+.imgcomputador{
+  display: flex;
+  justify-content: end;
+
+}
+
+/* ANIMAÇÃO */
+
+.imgcomputador img{
+    animation: flutuacao 5s
+    ease-in-out infinite;
+}
+
+@keyframes flutuacao{
+    0%, 100%{
+        transform:translateY(0px)
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+}
+/* FIM DA ANIMAÇÃO */
+
+
+.principal{
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     flex-direction: column;
-    padding: 10rem;
-    margin-top: 8.2rem;
+    margin-top: -30rem;
+  
 }
 
-.Principal h1{
-    font-size: 6.2rem;
+.principal h1{
+    font-size: 7.2rem;
+    z-index: 10;
 }
 
-.Principal span{
-    font-size: 1.4rem;
-    padding-top: 3.0rem
-}
-
-.Principal button{
-    margin-top: 1.0rem;
-    width: 14rem;
-    padding: 1rem;
-    background-color:#cc284d;
-    border: none;
-    border-radius: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    margin-top: 5rem;
-    transition: all 0.5s;
-}
-
-.Principal button:hover{
-    width:15rem;
-}
-
-.Principal button a{
-    color: #eee;
-    font-size: 1.2rem;
-    text-decoration: none;
-    font-weight: bolder;
-}
-
-.titulo{
-    display: flex;
-    justify-content: center;
-    background-color: #eee;
-   color: #cc284d;
-   padding: 1.5rem;
-}
-
-
-.Projetos{
+.buttons{
     display: flex;
     flex-direction: row;
-    background-color: #eee;
-    width: 100%;
     justify-content: center;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-
+    align-items: center;
+    text-align: center;
+}
+.btncv, .btncontato{
+    width: 12rem;
+    height: 3rem;
+    margin-top: 2rem;
+    margin: 2rem;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.00);
+    color: #fff;
+    border-radius: .5rem;
+    border: 2px solid #904DF8;
+    cursor: pointer;
 }
 
-
-.Projetos p{
-    color: #cc284d;
-    font-size: 1.4rem;
-   
-}
-
-.Projetos img{
-width: 40rem;
-padding: 2rem;
-transition: all 0.5s;
-width: 100%;
-}
-
-.Projetos img:hover{
-    width: 50rem;
-}
-
-.Projetos h1{
-    margin-top: 0;
-}
-
- .Projetos div{
+/* SESSÃO SOBRE */
+.sobre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     text-align: center;
     align-items: center;
-    
+    margin-top: 40rem;
+    padding: 5rem;
+    background-color: #fff;
+    color: #042940;
 }
 
-.Tecnologias img{
-    width: 5rem;
+.text{
+   margin-top: 3rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   font-size: 1.8rem;
+   margin-right: 20rem;
+   line-height: 4rem;
+
+}
+
+.perfil img{
     border-radius: 50%;
-    padding: 0.3rem;
-    background-color: rgba(255, 255, 255, 0.479);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     margin-top: 1rem;
-    margin-bottom: 10rem;
-    transition: all 0.5s;
-}
-
-.Tecnologias img:hover{
-    width: 7rem;
-}
-
-.Tecnologias{
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-top: 3rem;
-
-}
-
-.Tecnologias div{
-   margin: 5px;
+    align-items: center;
+    margin-left: 20rem;
+   
+   
 }
 
 .titulo-tec{
